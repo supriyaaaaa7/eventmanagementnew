@@ -1,12 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:event/screens/User_Home/components/getticket_topImage.dart';
-import 'package:event/screens/User_Home/components/online_events.dart';
-import 'package:event/screens/User_Home/home.dart';
 import 'package:event/utils/bottom_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart';
+
 
 class GetTickets extends StatefulWidget {
   @override
